@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:scrollbars="vertical"
+    android:isScrollContainer="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="103dp"
+            android:id="@+id/hac_hospital_fragment_image_view"
+            android:src="@drawable/hac_logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/hac_hospital_fragment_circular"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminate="false"
+            android:progress="75"
+            android:max="100"
+            android:secondaryProgress="100"
+            android:progressDrawable="@drawable/circular"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="62dp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hac_hospital_fragment_hospital_ambulance"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Hosptial and Ambulance"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hac_hospital_fragment_private_agency_ambulance"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Ambulance Agency"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"/>
+</LinearLayout>
