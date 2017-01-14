@@ -1,1 +1,1 @@
-its a android based hospital and ambulance counsultancy app.
+its a android based hospital and ambulance consultancy app.
